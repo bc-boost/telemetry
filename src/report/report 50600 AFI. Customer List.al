@@ -134,11 +134,12 @@ report 50600 "AFI. Customer List"
             var
                 TelemetryManagement: Codeunit "AFI. Telemetry Management";
                 ElapsedTime: Integer;
-                FirstTelemetryEventIDLbl: Label 'AFI.0001', Locked = true;
-                LastTelemetryEventIDLbl: Label 'AFI.0002', Locked = true;
+                FirstTelemetryEventIDLbl: Label 'AFI.0004', Locked = true;
+                LastTelemetryEventIDLbl: Label 'AFI.0005', Locked = true;
                 FirstTelemetryEventMessageLbl: Label 'Start processing customer: %1', Locked = true;
                 LastTelemetryEventMessageLbl: Label 'End processing customer: %1', Locked = true;
             begin
+                TelemetryManagement.Initialize();
 
                 TelemetryManagement.ClearParameters();
                 TelemetryManagement.AddParameter('CustomerNo', Customer."No.");
