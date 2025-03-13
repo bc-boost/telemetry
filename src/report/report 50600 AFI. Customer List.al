@@ -133,20 +133,41 @@ report 50600 "AFI. Customer List"
             trigger OnAfterGetRecord()
             var
                 TelemetryManagement: Codeunit "AFI. Telemetry Management";
-                TelemetryEventIDLbl: Label 'AFI.0001', Locked = true;
-                TelemetryEventMessageLbl: Label 'Processed customer: %1', Locked = true;
+                ElapsedTime: Integer;
+                FirstTelemetryEventIDLbl: Label 'AFI.0001', Locked = true;
+                LastTelemetryEventIDLbl: Label 'AFI.0002', Locked = true;
+                FirstTelemetryEventMessageLbl: Label 'Start processing customer: %1', Locked = true;
+                LastTelemetryEventMessageLbl: Label 'End processing customer: %1', Locked = true;
             begin
-                // Use Pascal case beacuase standard telemetry add al as prefix so it convert the string in camelCase
+
                 TelemetryManagement.ClearParameters();
                 TelemetryManagement.AddParameter('CustomerNo', Customer."No.");
                 TelemetryManagement.AddParameter('CustomerName', Customer.Name);
                 TelemetryManagement.AddParameter('CustomerSystemId', Customer.SystemId);
-                TelemetryManagement.LogMessage(TelemetryEventIDLbl, StrSubstNo(TelemetryEventMessageLbl, Customer.SystemId));
+                TelemetryManagement.LogMessage(FirstTelemetryEventIDLbl, StrSubstNo(FirstTelemetryEventMessageLbl, Customer.SystemId));
 
                 CalcFields("Balance (LCY)");
                 FormatAddr.FormatAddr(
                   CustAddr, Name, "Name 2", '', Address, "Address 2",
                   City, "Post Code", County, "Country/Region Code");
+
+                // Randomize the sleep time to simulate a real scenario
+                Randomize();
+                ElapsedTime := Random(10000);
+                Sleep(ElapsedTime);
+
+                TelemetryManagement.ClearParameters();
+                TelemetryManagement.AddParameter('CustomerNo', Customer."No.");
+                TelemetryManagement.AddParameter('CustomerName', Customer.Name);
+                TelemetryManagement.AddParameter('CustomerSystemId', Customer.SystemId);
+                TelemetryManagement.AddParameter('ElapsedTime', ElapsedTime);
+                TelemetryManagement.LogMessage(LastTelemetryEventIDLbl, StrSubstNo(LastTelemetryEventMessageLbl, Customer.SystemId));
+                // Use Pascal case beacuase standard telemetry add al as prefix so it convert the string in camelCase
+                // TelemetryManagement.ClearParameters();
+                // TelemetryManagement.AddParameter('CustomerNo', Customer."No.");
+                // TelemetryManagement.AddParameter('CustomerName', Customer.Name);
+                // TelemetryManagement.AddParameter('CustomerSystemId', Customer.SystemId);
+                // TelemetryManagement.LogMessage(TelemetryEventIDLbl, StrSubstNo(TelemetryEventMessageLbl, Customer.SystemId));
             end;
         }
     }

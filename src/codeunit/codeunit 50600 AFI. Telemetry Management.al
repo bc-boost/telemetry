@@ -26,10 +26,10 @@ codeunit 50600 "AFI. Telemetry Management"
         Clear(ParametersDictionary);
     end;
 
-    procedure AddParameter(KeyVal: Text; Value: Text)
+    procedure AddParameter(KeyVal: Text; Value: Variant)
     var
     begin
-        ParametersDictionary.Add(KeyVal, Value);
+        ParametersDictionary.Add(KeyVal, Format(Value));
     end;
 
     procedure EditParameter(KeyVal: Text; Value: Text)
