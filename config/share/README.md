@@ -1,0 +1,1 @@
+Files to share with the container must be placed in this folder, f.e. a database backup.

@@ -1,0 +1,33 @@
+{
+  "id": "cb2a6904-6df7-4420-ae8a-8a1106bb0c3e",
+  "name": "Telemetry Workshop",
+  "publisher": "Eos Solutions",
+  "version": "26.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "25.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50600,
+      "to": 50700
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

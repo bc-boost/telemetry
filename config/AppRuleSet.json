@@ -1,0 +1,86 @@
+{
+    "name": "APP rule set",
+    "rules": 
+    [
+        {
+            "id": "PTE0001",
+            "action": "None",
+            "justification": "object outside 50000..99999 range"
+        },
+        {
+            "id": "PTE0002",
+            "action": "None",
+            "justification": "fields outside 50000..99999 range on table extensions"                
+        },
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "the name of variables and parameters must be suffixed with the type or object name"
+        },
+        {
+            "id": "AA0214",
+            "action": "None",
+            "justification": "the local record should be modified before saving to the database"
+        },
+        {
+            "id": "AA0218",
+            "action": "None",
+            "justification": "a Tooltip should not be neccessary"
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "placeholders should have a comment explaining their content"
+        },
+        {
+            "id": "AS0051",
+            "action": "None",
+            "justification": "AppSource properties like 'brief', etc. are not needed on customer projects"
+        },
+        {
+            "id": "AS0052",
+            "action": "None",
+            "justification": "AppSource property 'url' is not needed on customer projects"
+        },
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "The ID range is not valid"
+        },
+        {
+            "id": "AS0085",
+            "action": "None",
+            "justification": "allow explicit dependencies"
+        },
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "Different naming convention"
+        },
+        {
+            "id":"AS0092",
+            "action" : "None",
+            "justification": "Azure Application Insights resource is not needed"
+        },
+        {
+            "id":"AS0053",
+            "action" : "None",
+            "justification": "Error?"
+        },
+        {
+            "id":"PTE0005",
+            "action" : "None",
+            "justification": "Error?"
+        },
+        {
+            "id": "AA0232",
+            "action": "None",
+            "justification": "Warning does not deasapper even if i create the index"
+        },
+        {
+            "id": "AA0210",
+            "action": "None",
+            "justification": "Require to create too much indexes"
+        }
+    ]
+}

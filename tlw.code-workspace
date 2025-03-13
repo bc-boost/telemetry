@@ -1,0 +1,28 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "al.packageCachePath": "../.alpackages",
+        "al.enableCodeActions": true,
+        "al.enableCodeAnalysis": true,
+        "al.codeAnalyzers": [
+            "${CodeCop}",
+            "${PerTenantExtensionCop}",
+            "${UICop}"
+        ],
+        "al.ruleSetPath": "./config/AppRuleSet.json",
+        "CRS.FileNamePattern": "<ObjectType> <ObjectId> <ObjectName>.al",
+        "CRS.FileNamePatternExtensions": "<ObjectType> <BaseId> <BaseName>.al",
+        "eosToolkit.clientId": "f75b6be7-3d72-4ca4-a84a-18457f1b6973",
+        "eosToolkit.projectPrefix": "AFI.",
+        "eosToolkit.tenantId": "cdd2b2ff-69af-49e3-9161-680fb58a011d"
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [],
+        "compounds": []
+    }
+}

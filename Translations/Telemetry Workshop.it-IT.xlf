@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="xml" source-language="en-US" target-language="it-IT">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 2059453082 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer List</source>
+          <target>Lista clienti</target>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 1987762555" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Page</source>
+          <target>Pagina</target>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 2147829470" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Cod. valuta</target>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 3876523418" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cust./Item Disc. Gr.</source>
+          <target>Gruppo sconto cli/art</target>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 3423238360" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer Posting Group</source>
+          <target>Cat. reg. cliente</target>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 3311855227" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Group Code</source>
+          <target>Cod. gruppo prezzi</target>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 4049856195" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Disc. Code</source>
+          <target>Cod. sconto fattura</target>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 245274959" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Payment Terms Code</source>
+          <target>Cod. condizioni pagamento</target>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 2915928095" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer - List</source>
+          <target>Lista clienti</target>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 4124852849" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total (LCY)</source>
+          <target>Totale (VL)</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

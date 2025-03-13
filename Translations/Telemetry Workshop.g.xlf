@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Telemetry Workshop">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 2059453082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AFI. Customer List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AFI. Customer List - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 2147829470" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AFI. Customer List - NamedType Customer__Currency_Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 3876523418" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cust./Item Disc. Gr.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AFI. Customer List - NamedType Customer__Customer_Disc__Group_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 3423238360" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AFI. Customer List - NamedType Customer__Customer_Posting_Group_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 3311855227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price Group Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AFI. Customer List - NamedType Customer__Customer_Price_Group_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 4049856195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Disc. Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AFI. Customer List - NamedType Customer__Invoice_Disc__Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 245274959" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AFI. Customer List - NamedType Customer__Payment_Terms_Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 2915928095" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AFI. Customer List - NamedType Customer___ListCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2059453082 - NamedType 4124852849" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AFI. Customer List - NamedType Total__LCY_CaptionLbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
